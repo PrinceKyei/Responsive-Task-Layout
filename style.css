@@ -10,7 +10,7 @@
     --sidebar-bg: #f3f4f6;
     --main-bg: #f3f4f6;
     --footer-bg: #596a74;
-    --text-color: #111827;
+    --text-color: #070b11;
     --light-text: #f9fafb;
     --accent: #29343b;
     font-family: 'Roboto', Arial, sans-serif;
@@ -62,7 +62,8 @@ body {
 
 /* Sidebar */
 .sidebar {
-    background: #f8f9fa;
+    background-color: #ffffff;
+    background: var(--main-bg);
     /* Light, modern background */
     padding: 20px;
     border-right: 1px solid #e0e0e0;
@@ -80,7 +81,7 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #333;
+    color: #1d1d1d;
     text-align: center;
     letter-spacing: 0.5px;
 }
@@ -135,7 +136,7 @@ body {
     margin-bottom: 30px;
     background-color: #ffffff;
     border-radius: 6px;
-    /*background: var(--main-bg);*/
+    background: var(--main-bg);
     padding: 1.5rem;
     box-shadow: 10px;
 }
