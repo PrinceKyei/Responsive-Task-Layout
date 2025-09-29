@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage Layout</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,57 +22,75 @@
     </header>
 
     <div class="container">
-        <aside class="sidebar">
-            <h2>Tasks</h2>
-            <ul>
-                <li><a href="#">Task 1</a></li>
-                <li><a href="#">Task 2</a></li>
-                <li><a href="#">Task 3</a></li>
-                <li><a href="#">Task 4</a></li>
-                <li><a href="#">Task 5</a></li>
-                <li><a href="#">Task 6</a></li>
-            </ul>
-        </aside>
+        <sidebar class="sidebar">
+            <h2 class="sidebar-title">Tasks</h2>
+            <nav>
+                <button class="btn">Task 1</button>
+                <button class="btn">Task 2</button>
+                <button class="btn">Task 3</button>
+                <button class="btn">Task 4</button>
+                <button class="btn">Task 5</button>
+                <button class="btn">Task 6</button>
+            </nav>
+        </sidebar>
 
-        <main class="main">
-            <h2>Task 1</h2>
-            <p>
-                Design a single HTML file that represents a blog post. Include a title, publication date,
-                and author name. Add sections for an introduction, main content (with a list), and a
-                conclusion. Insert at least one image and a "Read More" link at the end. Use
-                semantic HTML tags to structure the layout properly.
-            </p>
-            <h2>Task 2</h2>
-            <p>
-                Design a product card using HTML and CSS. Include an image, product name, price, and
-                an "Add to Cart" button. Style the card with CSS to ensure proper alignment and add
-                effects to the button for a polished look.
-            </p>
-            <h2>Task 3</h2>
-            <p>
-                Design a webpage with four sections: a header, a sidebar, a main content area, and a
-                footer. Use CSS to make the layout responsive, ensuring it looks good on all
-                screen sizes. Apply media queries to switch between a grid layout for desktops and a
-                stacked layout for mobile devices.
-            </p>
-            <h2>Task 4</h2>
-            <p>
-                Create a quiz application using JavaScript with at least 3 multiple-choice questions.
-                Add functionality to move to the next question and display the score at the end.
-                Ensure users cannot proceed without selecting an answer by adding basic validation.
-            </p>
-            <h2>Task 5</h2>
-            <p>
-                Create a to-do list application using HTML, CSS, and JavaScript. Include features to
-                add, edit, delete, and mark tasks as completed. Use CSS to style the app and
-                make it responsive for different screen sizes.
-            </p>
-            <h2>Task 6</h2>
-            <p>
-                Choose a simple webpage, like a product or company landing page, and recreate its
-                layout and design using HTML and CSS. Add interactivity with JavaScript, such as a
-                button or form functionality, to make it more dynamic.
-            </p>
+        <main>
+            <section class="main">
+                <h2>Task 1</h2>
+                <p>
+                    Design a single HTML file that represents a blog post. Include a title, publication date,
+                    and author name. Add sections for an introduction, main content (with a list), and a
+                    conclusion. Insert at least one image and a "Read More" link at the end. Use
+                    semantic HTML tags to structure the layout properly.
+                </p>
+            </section>
+
+            <section class="main">
+                <h2>Task 2</h2>
+                <p>
+                    Design a product card using HTML and CSS. Include an image, product name, price, and
+                    an "Add to Cart" button. Style the card with CSS to ensure proper alignment and add
+                    effects to the button for a polished look.
+                </p>
+            </section>
+
+            <section class="main">
+                <h2>Task 3</h2>
+                <p>
+                    Design a webpage with four sections: a header, a sidebar, a main content area, and a
+                    footer. Use CSS to make the layout responsive, ensuring it looks good on all
+                    screen sizes. Apply media queries to switch between a grid layout for desktops and a
+                    stacked layout for mobile devices.
+                </p>
+            </section>
+
+            <section class="main">
+                <h2>Task 4</h2>
+                <p>
+                    Create a quiz application using JavaScript with at least 3 multiple-choice questions.
+                    Add functionality to move to the next question and display the score at the end.
+                    Ensure users cannot proceed without selecting an answer by adding basic validation.
+                </p>
+            </section>
+
+            <section class="main">
+                <h2>Task 5</h2>
+                <p>
+                    Create a to-do list application using HTML, CSS, and JavaScript. Include features to
+                    add, edit, delete, and mark tasks as completed. Use CSS to style the app and
+                    make it responsive for different screen sizes.
+                </p>
+            </section>
+
+            <section class="main">
+                <h2>Task 6</h2>
+                <p>
+                    Choose a simple webpage, like a product or company landing page, and recreate its
+                    layout and design using HTML and CSS. Add interactivity with JavaScript, such as a
+                    button or form functionality, to make it more dynamic.
+                </p>
+            </section>
+
         </main>
     </div>
 
